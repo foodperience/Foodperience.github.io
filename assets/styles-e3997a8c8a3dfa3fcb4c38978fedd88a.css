@@ -1,0 +1,411 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+  body .content {
+    min-height: 508px;
+    margin-top: 60px; }
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px; }
+
+.navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px; }
+
+/*
+  Grid content
+
+  | Columns  | Category  |  Class      |
+  --------------------------------------
+  1  column    Small-       .col-1
+  2  columns   Small        .col-2
+  3  columns   Small+       .col-3
+  - - - - - - - - - - - - - - - - - - -
+  4  columns   Normal-      .col-4
+  5  columns   Normal       .col-5
+  6  columns   Normal+      .col-6
+  - - - - - - - - - - - - - - - - - - -
+  7  columns   Medium-      .col-7
+  8  columns   Medium       .col-8
+  9  columns   Medium+      .col-9
+  - - - - - - - - - - - - - - - - - - -
+  10 columns   Large-       .col-10
+  11 columns   Large        .col-11
+  12 columns   Large+       .col-12
+  --------------------------------------
+*/
+.grid-content .grid-content-col.col-1 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-1 {
+      float: left;
+      width: 8.3333333333%; } }
+.grid-content .grid-content-col.col-2 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-2 {
+      float: left;
+      width: 16.6666666667%; } }
+.grid-content .grid-content-col.col-3 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-3 {
+      float: left;
+      width: 25%; } }
+.grid-content .grid-content-col.col-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-4 {
+      float: left;
+      width: 33.3333333333%; } }
+.grid-content .grid-content-col.col-5 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-5 {
+      float: left;
+      width: 41.6666666667%; } }
+.grid-content .grid-content-col.col-6 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-6 {
+      float: left;
+      width: 50%; } }
+.grid-content .grid-content-col.col-7 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-7 {
+      float: left;
+      width: 58.3333333333%; } }
+.grid-content .grid-content-col.col-8 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-8 {
+      float: left;
+      width: 66.6666666667%; } }
+.grid-content .grid-content-col.col-9 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-9 {
+      float: left;
+      width: 75%; } }
+.grid-content .grid-content-col.col-10 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-10 {
+      float: left;
+      width: 83.3333333333%; } }
+.grid-content .grid-content-col.col-11 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-11 {
+      float: left;
+      width: 91.6666666667%; } }
+.grid-content .grid-content-col.col-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .grid-content .grid-content-col.col-12 {
+      float: left;
+      width: 100%; } }
+
+.content.indexHome {
+  background: url("/assets/layout/home-dbd98e95daf78576a778cbde60b83ed8.svg") center center no-repeat;
+  height: 518px;
+  width: 100%;
+  margin-top: 50px;
+  background-size: 100% 100%; }
+
+.home_button_1,
+.home_button_2,
+.home_button_3 {
+  display: block;
+  height: 160px;
+  width: 96%;
+  margin: 10px 2%;
+  border-radius: 3px; }
+  .home_button_1 img,
+  .home_button_2 img,
+  .home_button_3 img {
+    display: block;
+    height: 130px;
+    margin: 0 auto;
+    padding-top: 30px; }
+
+.inputIngredientAdd {
+  border: 1px solid #D1D1D1;
+  width: 80%;
+  height: 20px;
+  margin: 0 2%;
+  padding: 0 15px; }
+
+.buttonIngredientAdd {
+  background: #fff;
+  width: 12%;
+  border: 1px solid #D1D1D1;
+  background: url("/assets/layout/plus-e0e8ead73b72ee6f144e32f1a69531c0.svg") center center no-repeat;
+  background-size: 20px auto; }
+
+.buttonIngredientAdd.buttonDone {
+  background: url("/assets/layout/done-e156954e485a547af6e0bfa4d8a4494f.svg") center center no-repeat;
+  background-size: 20px auto; }
+
+.inputIngredientAdd,
+.buttonIngredientAdd {
+  height: 40px;
+  display: block;
+  float: left; }
+
+.findStart {
+  display: block;
+  height: 40px; }
+
+.findResult {
+  margin-top: 60px; }
+
+.recipeDetail {
+  width: 96%;
+  margin: auto 2%;
+  border-radius: 3px; }
+  .recipeDetail:nth-child(4n) {
+    background-color: rgba(15, 172, 243, 0.2);
+    color: #076995;
+    color: #595959; }
+  .recipeDetail:nth-child(4n+1) {
+    background-color: rgba(135, 193, 164, 0.2);
+    color: #4d9571;
+    color: #595959; }
+  .recipeDetail:nth-child(4n+2) {
+    background-color: rgba(152, 182, 199, 0.2);
+    color: #5887a1;
+    color: #595959; }
+  .recipeDetail:nth-child(4n+3) {
+    background-color: rgba(240, 144, 108, 0.2);
+    color: #df4d17;
+    color: #595959; }
+  .recipeDetail ul {
+    list-style-type: none;
+    padding: 10px 20px; }
+    .recipeDetail ul li {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px; }
+      .recipeDetail ul li:first-child {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 30px; }
+      .recipeDetail ul li.recipeIngredients {
+        display: block;
+        float: left;
+        margin-right: 10px;
+        font-weight: 300; }
+      .recipeDetail ul li.recipeTime {
+        clear: both;
+        font-style: italic; }
+        .recipeDetail ul li.recipeTime::after {
+          content: "'"; }
+      .recipeDetail ul li:last-child {
+        display: block;
+        float: right;
+        margin-top: -20px;
+        font-family: 'Amatic SC', cursive;
+        font-size: 18px; }
+
+.content.create {
+  height: 518px;
+  width: 100%;
+  margin-top: 50px;
+  background: url("/assets/create/create-bd78364a1a323b14d5af92cdba5bb313.svg") center center no-repeat;
+  background-size: 100% 100%; }
+
+.create1And2 {
+  display: block;
+  margin-top: 50px;
+  height: 310px;
+  width: 100%; }
+
+.create1, .create2 {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 100%; }
+
+.create3 {
+  height: 208px; }
+
+.create1 a, .create2 a, .create3 a {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.content .randomBag {
+  position: fixed;
+  height: 104px;
+  width: 320px;
+  top: 50px;
+  background: url("/assets/randomBag/randomBag_bg1-a21ed8e3b72d259bee03ff061811b281.svg") center center no-repeat;
+  background-size: 100% 100%;
+  z-index: 0; }
+
+a.randomBags {
+  margin-top: 230px;
+  display: block;
+  float: left;
+  width: 50px;
+  height: 20px;
+  text-align: center; }
+  a.randomBags img {
+    width: 10px; }
+  a.randomBags.mittel {
+    width: 220px;
+    margin-top: 150px; }
+    a.randomBags.mittel img {
+      width: 180px; }
+
+.bagStar {
+  position: fixed;
+  display: block;
+  z-index: 10000;
+  bottom: 0;
+  width: 100%;
+  height: 118px;
+  text-align: center;
+  line-height: 150px;
+  color: #fff;
+  font-size: 22px;
+  background: url("/assets/randomBag/randomBag_bg2-38e930f756c15ba99e3f77419d72ab0d.svg") bottom center; }
+
+.content.randomIngredient {
+  height: 518px;
+  width: 100%;
+  margin-top: 50px;
+  background: url("/assets/randomBag/challenge_accept-3f0c1cc9d86d31038bec5c25b37e5dc1.svg") center center no-repeat;
+  background-size: 100% 100%; }
+
+.ingredientAre {
+  display: block;
+  z-index: 10000;
+  padding-top: 100px;
+  padding: auto 40px;
+  max-height: 350px; }
+  .ingredientAre table {
+    margin-left: 40px; }
+    .ingredientAre table td {
+      padding-right: 10px; }
+
+.noAndYes {
+  width: 100%;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  height: 120px;
+  text-align: center; }
+  .noAndYes .no, .noAndYes .yes {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 120px; }
+  .noAndYes a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+.content.detail {
+  margin-top: 50px;
+  background-color: rgba(240, 144, 108, 0.2);
+  min-height: 518px; }
+  .content.detail table {
+    margin-left: 20px;
+    width: 85%; }
+    .content.detail table tr {
+      margin: 10px 0; }
+    .content.detail table tr td {
+      padding: 5px 5px;
+      width: 40%; }
+      .content.detail table tr td:first-child {
+        width: 20%; }
+      .content.detail table tr td.detailTotalTime {
+        width: 100%; }
+  .content.detail .noAndYes {
+    height: 80px; }
+    .content.detail .noAndYes .no, .content.detail .noAndYes .yes {
+      display: block;
+      float: left;
+      width: 50%;
+      height: 80px; }
+    .content.detail .noAndYes a {
+      color: #595959; }
+
+.content.createRecipe {
+  width: 98%;
+  margin: 50px 1% 0; }
+  .content.createRecipe input, .content.createRecipe textarea {
+    border: 1px solid #D1D1D1;
+    padding: 0 15px; }
+  .content.createRecipe textarea.createText {
+    width: 100%; }
+
+.createSteps img {
+  margin: 15px 2px;
+  width: 50px; }
+
+.buttonAddStep, .buttonDone {
+  width: 50%; }
+
+.content.succes {
+  background: url("/assets/layout/feedback-2b3404c24278c351008848a99d91ed4f.svg") center center no-repeat;
+  height: 518px;
+  width: 100%;
+  margin-top: 50px;
+  background-size: 100% 100%; }
+
+.succes_back {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.content.profil {
+  background: url("/assets/layout/profil-0c765a2d989bd7a12bb109000a4644fd.svg") center center no-repeat;
+  height: 518px;
+  width: 100%;
+  margin-top: 50px;
+  background-size: 100% 100%; }
